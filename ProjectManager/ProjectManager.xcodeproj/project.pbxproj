@@ -3,24 +3,90 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AC4526F2A14A2A600ADAC45 /* MyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC4526E2A14A2A600ADAC45 /* MyTask.swift */; };
+		4AE1DDFE2A1B8D3A00EDE95C /* TaskListHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1DDFD2A1B8D3A00EDE95C /* TaskListHeaderViewModel.swift */; };
+		4AE1DE192A209B2500EDE95C /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1DE182A209B2500EDE95C /* RealmManager.swift */; };
+		4AE1DE1C2A24887D00EDE95C /* DataTransferObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1DE1B2A24887D00EDE95C /* DataTransferObject.swift */; };
+		4AE1DE1E2A24889E00EDE95C /* DataAccessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1DE1D2A24889E00EDE95C /* DataAccessObject.swift */; };
+		4AE1DE202A24991A00EDE95C /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1DE1F2A24991A00EDE95C /* HistoryViewController.swift */; };
+		4AE1DE222A249F3600EDE95C /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1DE212A249F3600EDE95C /* HistoryViewModel.swift */; };
+		4AE1DE252A259FD400EDE95C /* RealmHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1DE242A259FD400EDE95C /* RealmHistory.swift */; };
+		4AE1DE2A2A25EC6C00EDE95C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4AE1DE292A25EC6C00EDE95C /* FirebaseFirestore */; };
+		4AE1DE2C2A25EC6C00EDE95C /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4AE1DE2B2A25EC6C00EDE95C /* FirebaseFirestoreSwift */; };
+		4AE1DE302A27288500EDE95C /* ProjectManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1DE2F2A27288500EDE95C /* ProjectManagerService.swift */; };
+		AA0E21532A25D3240066202E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA0E21522A25D3240066202E /* GoogleService-Info.plist */; };
+		AA0E21562A25D71C0066202E /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0E21552A25D71C0066202E /* FirebaseManager.swift */; };
+		AA2F17DB2A14A82200664807 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F17DA2A14A82200664807 /* TaskListViewModel.swift */; };
+		AA2F17DD2A14AB3700664807 /* TaskListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2F17DC2A14AB3700664807 /* TaskListCell.swift */; };
+		AA32F2442A16026600DB3E1A /* TaskListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F2432A16026600DB3E1A /* TaskListHeaderView.swift */; };
+		AA32F2462A1643C500DB3E1A /* TaskState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F2452A1643C500DB3E1A /* TaskState.swift */; };
+		AA32F2482A16538800DB3E1A /* CountLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA32F2472A16538800DB3E1A /* CountLabel.swift */; };
+		AA3830BC2A2738F5003379AD /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3830BB2A2738F5003379AD /* NetworkMonitor.swift */; };
+		AA48F31A2A1F3A16003B965E /* Array+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48F3192A1F3A16003B965E /* Array+Subscript.swift */; };
+		AA48F31D2A1F7543003B965E /* UITextField+publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48F31C2A1F7543003B965E /* UITextField+publisher.swift */; };
+		AA48F31F2A1F754F003B965E /* UITextView+publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48F31E2A1F754F003B965E /* UITextView+publisher.swift */; };
+		AA48F3212A2093A4003B965E /* RealmTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA48F3202A2093A4003B965E /* RealmTask.swift */; };
+		AA5368802A286414003820C0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA53687F2A286414003820C0 /* MainViewModel.swift */; };
+		AA61F2512A1326C200C7C290 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AA61F2502A1326C200C7C290 /* Realm */; };
+		AA61F2532A1326C200C7C290 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AA61F2522A1326C200C7C290 /* RealmSwift */; };
+		AA648D742A248E3D00602F40 /* Histroy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA648D732A248E3D00602F40 /* Histroy.swift */; };
+		AA648D7A2A24904000602F40 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA648D792A24904000602F40 /* HistoryManager.swift */; };
+		AA648D7D2A249C0900602F40 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA648D7C2A249C0900602F40 /* HistoryCell.swift */; };
+		AA7FC09D2A1503A20057FCD4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7FC09C2A1503A20057FCD4 /* MainViewController.swift */; };
+		AA8AE3C02A1B3FF500B662F2 /* TaskFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AE3BF2A1B3FF500B662F2 /* TaskFormViewController.swift */; };
+		AA8AE3C22A1B560600B662F2 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AE3C12A1B560600B662F2 /* TaskManager.swift */; };
+		AA8AE3C62A1B67D400B662F2 /* TaskFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8AE3C52A1B67D400B662F2 /* TaskFormViewModel.swift */; };
+		AA99804E2A14B412005D98D7 /* UICollectionViewCell+IdentifierType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA99804D2A14B412005D98D7 /* UICollectionViewCell+IdentifierType.swift */; };
+		AAACDCFC2A1C5877005BFD03 /* TaskListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAACDCFB2A1C5877005BFD03 /* TaskListCellViewModel.swift */; };
+		AAACDCFE2A1C6297005BFD03 /* DateFormatter+Deadline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAACDCFD2A1C6297005BFD03 /* DateFormatter+Deadline.swift */; };
 		C7431F0625F51E1D0094C4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7431F0525F51E1D0094C4CF /* AppDelegate.swift */; };
 		C7431F0825F51E1D0094C4CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7431F0725F51E1D0094C4CF /* SceneDelegate.swift */; };
-		C7431F0A25F51E1D0094C4CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7431F0925F51E1D0094C4CF /* ViewController.swift */; };
-		C7431F0D25F51E1D0094C4CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7431F0B25F51E1D0094C4CF /* Main.storyboard */; };
+		C7431F0A25F51E1D0094C4CF /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7431F0925F51E1D0094C4CF /* TaskListViewController.swift */; };
 		C7431F0F25F51E1E0094C4CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7431F0E25F51E1E0094C4CF /* Assets.xcassets */; };
 		C7431F1225F51E1E0094C4CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7431F1025F51E1E0094C4CF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AC4526E2A14A2A600ADAC45 /* MyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTask.swift; sourceTree = "<group>"; };
+		4AE1DDFD2A1B8D3A00EDE95C /* TaskListHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListHeaderViewModel.swift; sourceTree = "<group>"; };
+		4AE1DE182A209B2500EDE95C /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		4AE1DE1B2A24887D00EDE95C /* DataTransferObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferObject.swift; sourceTree = "<group>"; };
+		4AE1DE1D2A24889E00EDE95C /* DataAccessObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccessObject.swift; sourceTree = "<group>"; };
+		4AE1DE1F2A24991A00EDE95C /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoryViewController.swift; path = ProjectManager/App/Source/Database/Protocol/HistoryViewController.swift; sourceTree = SOURCE_ROOT; };
+		4AE1DE212A249F3600EDE95C /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		4AE1DE242A259FD400EDE95C /* RealmHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHistory.swift; sourceTree = "<group>"; };
+		4AE1DE2F2A27288500EDE95C /* ProjectManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManagerService.swift; sourceTree = "<group>"; };
+		AA0E21522A25D3240066202E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AA0E21552A25D71C0066202E /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		AA2F17DA2A14A82200664807 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		AA2F17DC2A14AB3700664807 /* TaskListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCell.swift; sourceTree = "<group>"; };
+		AA32F2432A16026600DB3E1A /* TaskListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListHeaderView.swift; sourceTree = "<group>"; };
+		AA32F2452A1643C500DB3E1A /* TaskState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskState.swift; sourceTree = "<group>"; };
+		AA32F2472A16538800DB3E1A /* CountLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountLabel.swift; sourceTree = "<group>"; };
+		AA3830BB2A2738F5003379AD /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		AA48F3192A1F3A16003B965E /* Array+Subscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Subscript.swift"; sourceTree = "<group>"; };
+		AA48F31C2A1F7543003B965E /* UITextField+publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+publisher.swift"; sourceTree = "<group>"; };
+		AA48F31E2A1F754F003B965E /* UITextView+publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+publisher.swift"; sourceTree = "<group>"; };
+		AA48F3202A2093A4003B965E /* RealmTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmTask.swift; sourceTree = "<group>"; };
+		AA53687F2A286414003820C0 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		AA648D732A248E3D00602F40 /* Histroy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Histroy.swift; sourceTree = "<group>"; };
+		AA648D792A24904000602F40 /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		AA648D7C2A249C0900602F40 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		AA7FC09C2A1503A20057FCD4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AA8AE3BF2A1B3FF500B662F2 /* TaskFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormViewController.swift; sourceTree = "<group>"; };
+		AA8AE3C12A1B560600B662F2 /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		AA8AE3C52A1B67D400B662F2 /* TaskFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFormViewModel.swift; sourceTree = "<group>"; };
+		AA99804D2A14B412005D98D7 /* UICollectionViewCell+IdentifierType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+IdentifierType.swift"; sourceTree = "<group>"; };
+		AAACDCFB2A1C5877005BFD03 /* TaskListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListCellViewModel.swift; sourceTree = "<group>"; };
+		AAACDCFD2A1C6297005BFD03 /* DateFormatter+Deadline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Deadline.swift"; sourceTree = "<group>"; };
 		C7431F0225F51E1D0094C4CF /* ProjectManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7431F0525F51E1D0094C4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7431F0725F51E1D0094C4CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7431F0925F51E1D0094C4CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C7431F0C25F51E1D0094C4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7431F0925F51E1D0094C4CF /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		C7431F0E25F51E1E0094C4CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7431F1125F51E1E0094C4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7431F1325F51E1E0094C4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,12 +97,235 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA61F2532A1326C200C7C290 /* RealmSwift in Frameworks */,
+				AA61F2512A1326C200C7C290 /* Realm in Frameworks */,
+				4AE1DE2A2A25EC6C00EDE95C /* FirebaseFirestore in Frameworks */,
+				4AE1DE2C2A25EC6C00EDE95C /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AC4526D2A14A26F00ADAC45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA648D782A24900100602F40 /* Task */,
+				AA648D772A248FFE00602F40 /* History */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4AE1DE1A2A24885E00EDE95C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4AE1DE1B2A24887D00EDE95C /* DataTransferObject.swift */,
+				4AE1DE1D2A24889E00EDE95C /* DataAccessObject.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		4AE1DE232A259FAD00EDE95C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA48F3202A2093A4003B965E /* RealmTask.swift */,
+				4AE1DE242A259FD400EDE95C /* RealmHistory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA0E21542A25D6C50066202E /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				AA0E21552A25D71C0066202E /* FirebaseManager.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		AA2F17D72A14A7BA00664807 /* TaskList */ = {
+			isa = PBXGroup;
+			children = (
+				AA54D9192A1D024200702F06 /* Component */,
+				AA54D9182A1D021500702F06 /* Header */,
+				AA54D9172A1D020300702F06 /* Cell */,
+				AA2F17DA2A14A82200664807 /* TaskListViewModel.swift */,
+				C7431F0925F51E1D0094C4CF /* TaskListViewController.swift */,
+			);
+			path = TaskList;
+			sourceTree = "<group>";
+		};
+		AA3830BA2A2738D6003379AD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AA3830BB2A2738F5003379AD /* NetworkMonitor.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AA48F3182A1F3998003B965E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AA99804C2A14B3B3005D98D7 /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		AA48F31B2A1F7526003B965E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA48F31C2A1F7543003B965E /* UITextField+publisher.swift */,
+				AA48F31E2A1F754F003B965E /* UITextView+publisher.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AA48F3222A2096F0003B965E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				4AE1DE1A2A24885E00EDE95C /* Protocol */,
+				AA48F3232A209707003B965E /* Local */,
+				AA0E21542A25D6C50066202E /* Remote */,
+				AA648D7B2A24906300602F40 /* Controller */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		AA48F3232A209707003B965E /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				4AE1DE232A259FAD00EDE95C /* Model */,
+				4AE1DE182A209B2500EDE95C /* RealmManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		AA54D9122A1D019A00702F06 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AA3830BA2A2738D6003379AD /* Network */,
+				AA48F3222A2096F0003B965E /* Database */,
+				AA48F3182A1F3998003B965E /* Util */,
+				4AC4526D2A14A26F00ADAC45 /* Model */,
+				AA54D9152A1D01E300702F06 /* Main */,
+				AA2F17D72A14A7BA00664807 /* TaskList */,
+				AA8AE3BE2A1B3FDA00B662F2 /* TaskForm */,
+				AA648D722A248E1100602F40 /* History */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		AA54D9132A1D01A200702F06 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C7431F0E25F51E1E0094C4CF /* Assets.xcassets */,
+				C7431F1025F51E1E0094C4CF /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AA54D9142A1D01B100702F06 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C7431F0525F51E1D0094C4CF /* AppDelegate.swift */,
+				C7431F0725F51E1D0094C4CF /* SceneDelegate.swift */,
+				AA54D9132A1D01A200702F06 /* Resource */,
+				AA54D9122A1D019A00702F06 /* Source */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA54D9152A1D01E300702F06 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AA7FC09C2A1503A20057FCD4 /* MainViewController.swift */,
+				AA53687F2A286414003820C0 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AA54D9172A1D020300702F06 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AAACDCFB2A1C5877005BFD03 /* TaskListCellViewModel.swift */,
+				AA2F17DC2A14AB3700664807 /* TaskListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AA54D9182A1D021500702F06 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				4AE1DDFD2A1B8D3A00EDE95C /* TaskListHeaderViewModel.swift */,
+				AA32F2432A16026600DB3E1A /* TaskListHeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		AA54D9192A1D024200702F06 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				AA32F2472A16538800DB3E1A /* CountLabel.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		AA648D722A248E1100602F40 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				4AE1DE1F2A24991A00EDE95C /* HistoryViewController.swift */,
+				AA648D7C2A249C0900602F40 /* HistoryCell.swift */,
+				4AE1DE212A249F3600EDE95C /* HistoryViewModel.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		AA648D772A248FFE00602F40 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				AA648D732A248E3D00602F40 /* Histroy.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		AA648D782A24900100602F40 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				4AC4526E2A14A2A600ADAC45 /* MyTask.swift */,
+				AA32F2452A1643C500DB3E1A /* TaskState.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		AA648D7B2A24906300602F40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA8AE3C12A1B560600B662F2 /* TaskManager.swift */,
+				AA648D792A24904000602F40 /* HistoryManager.swift */,
+				4AE1DE2F2A27288500EDE95C /* ProjectManagerService.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AA8AE3BE2A1B3FDA00B662F2 /* TaskForm */ = {
+			isa = PBXGroup;
+			children = (
+				AA48F31B2A1F7526003B965E /* Extension */,
+				AA8AE3C52A1B67D400B662F2 /* TaskFormViewModel.swift */,
+				AA8AE3BF2A1B3FF500B662F2 /* TaskFormViewController.swift */,
+			);
+			path = TaskForm;
+			sourceTree = "<group>";
+		};
+		AA99804C2A14B3B3005D98D7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA99804D2A14B412005D98D7 /* UICollectionViewCell+IdentifierType.swift */,
+				AAACDCFD2A1C6297005BFD03 /* DateFormatter+Deadline.swift */,
+				AA48F3192A1F3A16003B965E /* Array+Subscript.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		C7431EF925F51E1D0094C4CF = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +345,9 @@
 		C7431F0425F51E1D0094C4CF /* ProjectManager */ = {
 			isa = PBXGroup;
 			children = (
-				C7431F0525F51E1D0094C4CF /* AppDelegate.swift */,
-				C7431F0725F51E1D0094C4CF /* SceneDelegate.swift */,
-				C7431F0925F51E1D0094C4CF /* ViewController.swift */,
-				C7431F0B25F51E1D0094C4CF /* Main.storyboard */,
-				C7431F0E25F51E1E0094C4CF /* Assets.xcassets */,
-				C7431F1025F51E1E0094C4CF /* LaunchScreen.storyboard */,
+				AA54D9142A1D01B100702F06 /* App */,
 				C7431F1325F51E1E0094C4CF /* Info.plist */,
+				AA0E21522A25D3240066202E /* GoogleService-Info.plist */,
 			);
 			path = ProjectManager;
 			sourceTree = "<group>";
@@ -83,6 +368,12 @@
 			dependencies = (
 			);
 			name = ProjectManager;
+			packageProductDependencies = (
+				AA61F2502A1326C200C7C290 /* Realm */,
+				AA61F2522A1326C200C7C290 /* RealmSwift */,
+				4AE1DE292A25EC6C00EDE95C /* FirebaseFirestore */,
+				4AE1DE2B2A25EC6C00EDE95C /* FirebaseFirestoreSwift */,
+			);
 			productName = ProjectManager;
 			productReference = C7431F0225F51E1D0094C4CF /* ProjectManager.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +401,10 @@
 				Base,
 			);
 			mainGroup = C7431EF925F51E1D0094C4CF;
+			packageReferences = (
+				AA61F24F2A1326C200C7C290 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				4AE1DE282A25EC6C00EDE95C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C7431F0325F51E1D0094C4CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +421,7 @@
 			files = (
 				C7431F1225F51E1E0094C4CF /* LaunchScreen.storyboard in Resources */,
 				C7431F0F25F51E1E0094C4CF /* Assets.xcassets in Resources */,
-				C7431F0D25F51E1D0094C4CF /* Main.storyboard in Resources */,
+				AA0E21532A25D3240066202E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +432,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7431F0A25F51E1D0094C4CF /* ViewController.swift in Sources */,
+				4AC4526F2A14A2A600ADAC45 /* MyTask.swift in Sources */,
+				AAACDCFC2A1C5877005BFD03 /* TaskListCellViewModel.swift in Sources */,
+				AA8AE3C62A1B67D400B662F2 /* TaskFormViewModel.swift in Sources */,
+				AA8AE3C02A1B3FF500B662F2 /* TaskFormViewController.swift in Sources */,
+				C7431F0A25F51E1D0094C4CF /* TaskListViewController.swift in Sources */,
+				4AE1DE1C2A24887D00EDE95C /* DataTransferObject.swift in Sources */,
+				4AE1DE202A24991A00EDE95C /* HistoryViewController.swift in Sources */,
+				4AE1DE222A249F3600EDE95C /* HistoryViewModel.swift in Sources */,
+				AA48F31D2A1F7543003B965E /* UITextField+publisher.swift in Sources */,
+				AA0E21562A25D71C0066202E /* FirebaseManager.swift in Sources */,
+				AA8AE3C22A1B560600B662F2 /* TaskManager.swift in Sources */,
+				AA2F17DB2A14A82200664807 /* TaskListViewModel.swift in Sources */,
+				AA48F31F2A1F754F003B965E /* UITextView+publisher.swift in Sources */,
+				AA32F2462A1643C500DB3E1A /* TaskState.swift in Sources */,
 				C7431F0625F51E1D0094C4CF /* AppDelegate.swift in Sources */,
+				AA32F2442A16026600DB3E1A /* TaskListHeaderView.swift in Sources */,
+				AA648D742A248E3D00602F40 /* Histroy.swift in Sources */,
+				AA99804E2A14B412005D98D7 /* UICollectionViewCell+IdentifierType.swift in Sources */,
+				4AE1DE192A209B2500EDE95C /* RealmManager.swift in Sources */,
+				AA48F31A2A1F3A16003B965E /* Array+Subscript.swift in Sources */,
+				4AE1DDFE2A1B8D3A00EDE95C /* TaskListHeaderViewModel.swift in Sources */,
+				AAACDCFE2A1C6297005BFD03 /* DateFormatter+Deadline.swift in Sources */,
+				AA3830BC2A2738F5003379AD /* NetworkMonitor.swift in Sources */,
+				AA2F17DD2A14AB3700664807 /* TaskListCell.swift in Sources */,
+				AA48F3212A2093A4003B965E /* RealmTask.swift in Sources */,
+				AA5368802A286414003820C0 /* MainViewModel.swift in Sources */,
+				AA648D7D2A249C0900602F40 /* HistoryCell.swift in Sources */,
+				4AE1DE302A27288500EDE95C /* ProjectManagerService.swift in Sources */,
+				4AE1DE1E2A24889E00EDE95C /* DataAccessObject.swift in Sources */,
 				C7431F0825F51E1D0094C4CF /* SceneDelegate.swift in Sources */,
+				AA648D7A2A24904000602F40 /* HistoryManager.swift in Sources */,
+				AA32F2482A16538800DB3E1A /* CountLabel.swift in Sources */,
+				4AE1DE252A259FD400EDE95C /* RealmHistory.swift in Sources */,
+				AA7FC09D2A1503A20057FCD4 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C7431F0B25F51E1D0094C4CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7431F0C25F51E1D0094C4CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C7431F1025F51E1E0094C4CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +611,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.yagom.ProjectManager;
+				PRODUCT_BUNDLE_IDENTIFIER = net.yagom.ProjectManager.harry.kokkilE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -312,7 +630,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.yagom.ProjectManager;
+				PRODUCT_BUNDLE_IDENTIFIER = net.yagom.ProjectManager.harry.kokkilE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -341,6 +659,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4AE1DE282A25EC6C00EDE95C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		AA61F24F2A1326C200C7C290 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.39.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4AE1DE292A25EC6C00EDE95C /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AE1DE282A25EC6C00EDE95C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4AE1DE2B2A25EC6C00EDE95C /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AE1DE282A25EC6C00EDE95C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		AA61F2502A1326C200C7C290 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA61F24F2A1326C200C7C290 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		AA61F2522A1326C200C7C290 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA61F24F2A1326C200C7C290 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C7431EFA25F51E1D0094C4CF /* Project object */;
 }
